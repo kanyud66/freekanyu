@@ -8,7 +8,7 @@ proxies:
   type: vless
   server: 58.153.148.126
   port: 443
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -19,7 +19,7 @@ proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   type: vmess
   server: dog-hk.kunlun01dns.com
-  port: 21021
+  port: 21019
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
