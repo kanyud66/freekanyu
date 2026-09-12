@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: morning-cell-6297.66-b87.workers.dev
-  port: 8880
-  uuid: 631ddfb7-2f6b-4ecb-8c07-47062fff7ccb
+  server: 104.18.0.1
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: all.speedtest03.ccwu.cc
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /
     headers:
-      Host: morning-cell-6297.66-b87.workers.dev
+      Host: all.speedtest03.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
